@@ -109,7 +109,7 @@ function* confirmEmailHandler() {
     yield models.User.update(
         { account_status: 'approved' },
         {
-            where: { id: eid.user_id, account_status: 'onhold' },
+            where: { id: eid.user_id, account_status: 'waiting' },
         }
     );
     if (mixpanel)
@@ -117,7 +117,7 @@ function* confirmEmailHandler() {
             distinct_id: this.session.uid,
         });
 
-    this.redirect('/approval?confirm_email=true');
+    this.redirect('/create_account');
 }
 
 export default function useEnterAndConfirmEmailPages(app) {
@@ -449,7 +449,6 @@ export default function useEnterAndConfirmEmailPages(app) {
             );
         }
 
-        // redirect to phone verification
         this.redirect('/approval?confirm_email=true');
     });
 
