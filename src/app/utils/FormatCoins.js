@@ -16,12 +16,12 @@ export function formatCoins(string) {
     if (!string) return string;
     // TODO use .to:owerCase() ? for string normalisation
     string = string
-        .replace('SBD', DEBT_TOKEN_SHORT)
-        .replace('SD', DEBT_TOKEN_SHORT)
-        .replace('Steem Power', VESTING_TOKEN)
-        .replace('STEEM POWER', VESTING_TOKEN)
-        .replace('Steem', LIQUID_TOKEN)
-        .replace('STEEM', LIQUID_TOKEN_UPPERCASE)
+        .replace('DBD', DEBT_TOKEN_SHORT)
+        .replace('DD', DEBT_TOKEN_SHORT)
+        .replace('Dream Power', VESTING_TOKEN)
+        .replace('DREAM POWER', VESTING_TOKEN)
+        .replace('Dream', LIQUID_TOKEN)
+        .replace('DREAM', LIQUID_TOKEN_UPPERCASE)
         .replace('$', CURRENCY_SIGN);
     return string;
 }

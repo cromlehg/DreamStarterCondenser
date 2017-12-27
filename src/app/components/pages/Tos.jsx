@@ -196,7 +196,7 @@ class Tos extends React.Component {
                         <span className="c1">
                             6.1. &nbsp; You accept and acknowledge that there
                             are risks associated with utilizing an Internet-
-                            based STEEM account service including, but not
+                            based DREAM account service including, but not
                             limited to, the risk of failure of hardware,
                             software and Internet connections, the risk of
                             malicious software introduction, and the risk that
@@ -234,7 +234,7 @@ class Tos extends React.Component {
                             Services, including but not limited to any losses,
                             damages or claims arising from: (a) User error such
                             as forgotten passwords, incorrectly constructed
-                            transactions, or mistyped STEEM addresses; (b)
+                            transactions, or mistyped DREAM addresses; (b)
                             Server failure or data loss; (c) Corrupted Account
                             files; (d) Unauthorized access to applications; (e)
                             Any unauthorized third party activities, including
@@ -407,10 +407,10 @@ class Tos extends React.Component {
                             10.1. &nbsp;As described in more detail below, the
                             Services, among other things, provide in-browser (or
                             otherwise local) software that (a) generates and
-                            stores STEEM ACCOUNT Addresses and encrypted Private
+                            stores DREAM ACCOUNT Addresses and encrypted Private
                             Keys (defined below), and (b) Facilitates the
-                            submission of STEEM transaction data to the Steem
-                            network without requiring you to access the STEEM
+                            submission of DREAM transaction data to the Steem
+                            network without requiring you to access the DREAM
                             command line
                             interface.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>

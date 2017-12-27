@@ -36,7 +36,7 @@ class TermsAgree extends Component {
                     <span className="TermsAgree">
                         <div className="Tos row">
                             <div className="column">
-                                <h4>Steemit Terms of Service</h4>
+                                <h4>Dream Real Terms of Service</h4>
                                 <p className="c0">
                                     <span className="c1 c2">
                                         Last Updated April 28, 2016
@@ -44,22 +44,22 @@ class TermsAgree extends Component {
                                 </p>
                                 <p className="c0">
                                     <span className="c1">
-                                        Welcome to Steemit! These Terms of
+                                        Welcome to Dream real! These Terms of
                                         Service (&ldquo;
                                     </span>
                                     <span className="c1 c2">Terms</span>
                                     <span className="c1">
                                         &rdquo;) apply to your access to and use
-                                        of Steemit.com and any other products or
+                                        of dreamvp.com and any other products or
                                         services that link to these Terms
                                         (&ldquo;
                                     </span>
-                                    <span className="c1 c2">Steemit</span>
+                                    <span className="c1 c2">DreamReal</span>
                                     <span className="c1">
-                                        &rdquo;). Steemit is provided by
-                                        Steemit, Inc. (&ldquo;
+                                        &rdquo;). DreamReal is provided by
+                                        DreamReal, Inc. (&ldquo;
                                     </span>
-                                    <span className="c1 c2">Steemit</span>
+                                    <span className="c1 c2">DreamReal</span>
                                     <span className="c1">&rdquo;, &ldquo;</span>
                                     <span className="c1 c2">we</span>
                                     <span className="c1">
@@ -67,20 +67,20 @@ class TermsAgree extends Component {
                                     </span>
                                     <span className="c1 c2">us</span>
                                     <span className="c1">
-                                        &rdquo;). By accessing or using Steemit,
-                                        you agree to be bound by these Terms. If
-                                        you do not agree to these Terms,
-                                        including the mandatory arbitration
-                                        provision and class action waiver in
-                                        Section 14, do not access or use
-                                        Steemit. If we make changes to these
-                                        Terms, we will provide notice of those
-                                        changes by updating the &ldquo;
+                                        &rdquo;). By accessing or using
+                                        DreamReal, you agree to be bound by
+                                        these Terms. If you do not agree to
+                                        these Terms, including the mandatory
+                                        arbitration provision and class action
+                                        waiver in Section 14, do not access or
+                                        use DreamReal. If we make changes to
+                                        these Terms, we will provide notice of
+                                        those changes by updating the &ldquo;
                                     </span>
                                     <span className="c1 c2">Last Updated</span>
                                     <span className="c1">
                                         &rdquo; date above or posting notice on
-                                        Steemit. Your continued use of Steemit
+                                        DreamReal. Your continued use of Steemit
                                         will confirm your acceptance of the
                                         changes.
                                     </span>
@@ -262,7 +262,7 @@ class TermsAgree extends Component {
                                     <span className="c1">
                                         6.1. &nbsp; You accept and acknowledge
                                         that there are risks associated with
-                                        utilizing an Internet- based STEEM
+                                        utilizing an Internet- based DREAM
                                         account service including, but not
                                         limited to, the risk of failure of
                                         hardware, software and Internet
@@ -309,7 +309,7 @@ class TermsAgree extends Component {
                                         any losses, damages or claims arising
                                         from: (a) User error such as forgotten
                                         passwords, incorrectly constructed
-                                        transactions, or mistyped STEEM
+                                        transactions, or mistyped DREAM
                                         addresses; (b) Server failure or data
                                         loss; (c) Corrupted Account files; (d)
                                         Unauthorized access to applications; (e)
@@ -506,12 +506,12 @@ class TermsAgree extends Component {
                                         below, the Services, among other things,
                                         provide in-browser (or otherwise local)
                                         software that (a) generates and stores
-                                        STEEM ACCOUNT Addresses and encrypted
+                                        DREAM ACCOUNT Addresses and encrypted
                                         Private Keys (defined below), and (b)
-                                        Facilitates the submission of STEEM
+                                        Facilitates the submission of DREAM
                                         transaction data to the Steem network
                                         without requiring you to access the
-                                        STEEM command line
+                                        DREAM command line
                                         interface.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     </span>
                                 </p>
@@ -522,11 +522,11 @@ class TermsAgree extends Component {
                                         Services generate and store a
                                         cryptographic private and public key
                                         pair that you may use to send and
-                                        receive STEEM and Steem Dollars via the
+                                        receive DREAM and Steem Dollars via the
                                         Steem network.. The Private Key uniquely
                                         matches the Account Name and must be
                                         used in connection with the Account Name
-                                        to authorize the transfer of STEEM and
+                                        to authorize the transfer of DREAM and
                                         Steem Dollars from that Account. You are
                                         solely responsible for maintaining the
                                         security of your Private Key and any
@@ -556,7 +556,7 @@ class TermsAgree extends Component {
                                         you have not safely stored a backup of
                                         any Account Names and password pairs
                                         maintained in your Account, you accept
-                                        and acknowledge that any STEEM, Steem
+                                        and acknowledge that any DREAM, Dream
                                         Dollars and Steem Power you have
                                         associated with such Account will become
                                         inaccessible if you do not have your
@@ -594,15 +594,15 @@ class TermsAgree extends Component {
                                 <p className="c0">
                                     <span className="c1">
                                         10.5. &nbsp;No Storage or Transmission
-                                        of STEEM, Steem Dollars or Steem Power.
-                                        Steem, in any of its forms (STEEM, Steem
+                                        of DREAM, Dream Dollars or Dream Power.
+                                        Steem, in any of its forms (DREAM, Dream
                                         Dollars and Steem Power) is an
                                         intangible, digital asset. They exist
                                         only by virtue of the ownership record
                                         maintained in the Steem network. The
                                         Service does not store, send or receive
                                         Steem. Any transfer of title that might
-                                        occur in any STEEM, Steem Dollars or
+                                        occur in any DREAM, Steem Dollars or
                                         Steem Power occurs on the decentralized
                                         ledger within the Steem network and not
                                         within the Services. We do not guarantee
@@ -982,31 +982,33 @@ class TermsAgree extends Component {
                                 <p className="c0">
                                     <span className="c1">
                                         TO THE FULLEST EXTENT PERMITTED BY
-                                        APPLICABLE LAW, STEEMIT AND THE STEEMIT
-                                        CONTENT ARE PROVIDED ON AN &ldquo; AS
-                                        IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo;
-                                        BASIS, WITHOUT WARRANTIES OF ANY KIND,
-                                        EITHER EXPRESS OR IMPLIED, INCLUDING,
-                                        WITHOUT LIMITATION, IMPLIED WARRANTIES
-                                        OF MERCHANTABILITY, FITNESS FOR A
+                                        APPLICABLE LAW, DREAM REAL AND THE DREAM
+                                        STARTER CONTENT ARE PROVIDED ON AN
+                                        &ldquo; AS IS&rdquo; AND &ldquo;AS
+                                        AVAILABLE&rdquo; BASIS, WITHOUT
+                                        WARRANTIES OF ANY KIND, EITHER EXPRESS
+                                        OR IMPLIED, INCLUDING, WITHOUT
+                                        LIMITATION, IMPLIED WARRANTIES OF
+                                        MERCHANTABILITY, FITNESS FOR A
                                         PARTICULAR PURPOSE, TITLE AND
                                         NON-INFRINGEMENT AND ANY WARRANTIES
                                         IMPLIED BY ANY COURSE OF PERFORMANCE OR
-                                        USAGE OF TRADE. STEEMIT DOES NOT
-                                        REPRESENT OR WARRANT THAT STEEMIT AND
-                                        THE STEEMIT CONTENT: (A) WILL BE SECURE
-                                        OR AVAILABLE AT ANY PARTICULAR TIME OR
-                                        LOCATION; (B) ARE ACCURATE, COMPLETE,
-                                        RELIABLE, CURRENT OR ERROR-FREE OR THAT
-                                        ANY DEFECTS OR ERRORS WILL BE CORRECTED;
-                                        AND (C) ARE FREE OF VIRUSES OR OTHER
-                                        HARMFUL COMPONENTS. YOUR USE OF STEEMIT
-                                        AND THE STEEMIT CONTENT IS SOLELY AT
-                                        YOUR OWN RISK. SOME JURISDICTIONS DO NOT
-                                        ALLOW THE DISCLAIMER OF IMPLIED TERMS IN
-                                        CONTRACTS WITH CONSUMERS, SO SOME OR ALL
-                                        OF THE DISCLAIMERS IN THIS SECTION MAY
-                                        NOT APPLY TO YOU.
+                                        USAGE OF TRADE. DREAM REAL DOES NOT
+                                        REPRESENT OR WARRANT THAT DREAM REAL AND
+                                        THE DREAM REAL CONTENT: (A) WILL BE
+                                        SECURE OR AVAILABLE AT ANY PARTICULAR
+                                        TIME OR LOCATION; (B) ARE ACCURATE,
+                                        COMPLETE, RELIABLE, CURRENT OR
+                                        ERROR-FREE OR THAT ANY DEFECTS OR ERRORS
+                                        WILL BE CORRECTED; AND (C) ARE FREE OF
+                                        VIRUSES OR OTHER HARMFUL COMPONENTS.
+                                        YOUR USE OF DREAM REAL AND THE DREAM
+                                        REAL CONTENT IS SOLELY AT YOUR OWN RISK.
+                                        SOME JURISDICTIONS DO NOT ALLOW THE
+                                        DISCLAIMER OF IMPLIED TERMS IN CONTRACTS
+                                        WITH CONSUMERS, SO SOME OR ALL OF THE
+                                        DISCLAIMERS IN THIS SECTION MAY NOT
+                                        APPLY TO YOU.
                                     </span>
                                 </p>
                                 <p className="c0">
@@ -1017,8 +1019,8 @@ class TermsAgree extends Component {
                                 <p className="c0">
                                     <span className="c1">
                                         TO THE FULLEST EXTENT PERMITTED BY
-                                        APPLICABLE LAW, IN NO EVENT SHALL
-                                        STEEMIT OR THE STEEMIT PARTIES BE LIABLE
+                                        APPLICABLE LAW, IN NO EVENT SHALL DREAM
+                                        REAL OR THE DREAM REAL PARTIES BE LIABLE
                                         FOR ANY SPECIAL, INDIRECT, INCIDENTAL,
                                         CONSEQUENTIAL, EXEMPLARY OR PUNITIVE
                                         DAMAGES, OR ANY OTHER DAMAGES OF ANY
@@ -1028,21 +1030,21 @@ class TermsAgree extends Component {
                                         TORT (INCLUDING, BUT NOT LIMITED TO,
                                         NEGLIGENCE) OR OTHERWISE, ARISING OUT
                                         OF, OR IN ANY WAY CONNECTED WITH, THE
-                                        USE OF, OR INABILITY TO USE, STEEMIT OR
-                                        THE STEEMIT CONTENT. TO THE FULLEST
-                                        EXTENT PERMITTED BY APPLICABLE LAW, IN
-                                        NO EVENT SHALL THE AGGREGATE LIABILITY
-                                        OF STEEMIT OR THE STEEMIT PARTIES,
-                                        WHETHER IN CONTRACT, WARRANTY, TORT
-                                        (INCLUDING NEGLIGENCE, WHETHER ACTIVE,
-                                        PASSIVE OR IMPUTED), PRODUCT LIABILITY,
-                                        STRICT LIABILITY OR OTHER THEORY,
-                                        ARISING OUT OF OR RELATING TO: (A) THE
-                                        USE OF OR INABILITY TO USE STEEMIT OR
-                                        THE STEEMIT CONTENT; OR (B) THESE TERMS
-                                        EXCEED ANY COMPENSATION YOU PAY, IF ANY,
-                                        TO STEEMIT FOR ACCESS TO OR USE OF
-                                        STEEMIT.
+                                        USE OF, OR INABILITY TO USE, DREAM REAL
+                                        OR THE DREAM REAL CONTENT. TO THE
+                                        FULLEST EXTENT PERMITTED BY APPLICABLE
+                                        LAW, IN NO EVENT SHALL THE AGGREGATE
+                                        LIABILITY OF DREAM REAL OR THE DREAM
+                                        REAL PARTIES, WHETHER IN CONTRACT,
+                                        WARRANTY, TORT (INCLUDING NEGLIGENCE,
+                                        WHETHER ACTIVE, PASSIVE OR IMPUTED),
+                                        PRODUCT LIABILITY, STRICT LIABILITY OR
+                                        OTHER THEORY, ARISING OUT OF OR RELATING
+                                        TO: (A) THE USE OF OR INABILITY TO USE
+                                        DREAM REAL OR THE DREAM REAL CONTENT; OR
+                                        (B) THESE TERMS EXCEED ANY COMPENSATION
+                                        YOU PAY, IF ANY, TO DREAM REAL FOR
+                                        ACCESS TO OR USE OF DREAM REAL.
                                     </span>
                                 </p>
                                 <p className="c0">
@@ -1080,9 +1082,9 @@ class TermsAgree extends Component {
                                     <span className="c1">
                                         PLEASE READ THE FOLLOWING SECTION
                                         CAREFULLY BECAUSE IT REQUIRES YOU TO
-                                        ARBITRATE CERTAIN DISPUTES WITH STEEMIT
-                                        AND LIMITS THE MANNER IN WHICH YOU CAN
-                                        SEEK RELIEF FROM STEEMIT.
+                                        ARBITRATE CERTAIN DISPUTES WITH DREAM
+                                        REAL AND LIMITS THE MANNER IN WHICH YOU
+                                        CAN SEEK RELIEF FROM DREAM REAL.
                                     </span>
                                 </p>
                                 <p className="c0">
@@ -1125,24 +1127,24 @@ class TermsAgree extends Component {
                                 </p>
                                 <p className="c0">
                                     <span className="c1">
-                                        YOU AND STEEMIT AGREE THAT ANY DISPUTE
-                                        IS PERSONAL TO YOU AND STEEMIT AND THAT
-                                        ANY SUCH DISPUTE WILL BE RESOLVED SOLELY
-                                        THROUGH INDIVIDUAL ARBITRATION AND WILL
-                                        NOT BE BROUGHT AS A CLASS ARBITRATION,
-                                        CLASS ACTION OR ANY OTHER TYPE OF
-                                        REPRESENTATIVE PROCEEDING. NEITHER PARTY
-                                        AGREES TO CLASS ARBITRATION OR TO AN
-                                        ARBITRATION IN WHICH AN INDIVIDUAL
-                                        ATTEMPTS TO RESOLVE A DISPUTE AS A
-                                        REPRESENTATIVE OF ANOTHER INDIVIDUAL OR
-                                        GROUP OF INDIVIDUALS. FURTHER, YOU AND
-                                        STEEMIT AGREE THAT A DISPUTE CANNOT BE
-                                        BROUGHT AS A CLASS, OR OTHER TYPE OF
-                                        REPRESENTATIVE ACTION, WHETHER WITHIN OR
-                                        OUTSIDE OF ARBITRATION, OR ON BEHALF OF
-                                        ANY OTHER INDIVIDUAL OR GROUP OF
-                                        INDIVIDUALS.
+                                        YOU AND DREAM REAL AGREE THAT ANY
+                                        DISPUTE IS PERSONAL TO YOU AND DREAM
+                                        REAL AND THAT ANY SUCH DISPUTE WILL BE
+                                        RESOLVED SOLELY THROUGH INDIVIDUAL
+                                        ARBITRATION AND WILL NOT BE BROUGHT AS A
+                                        CLASS ARBITRATION, CLASS ACTION OR ANY
+                                        OTHER TYPE OF REPRESENTATIVE PROCEEDING.
+                                        NEITHER PARTY AGREES TO CLASS
+                                        ARBITRATION OR TO AN ARBITRATION IN
+                                        WHICH AN INDIVIDUAL ATTEMPTS TO RESOLVE
+                                        A DISPUTE AS A REPRESENTATIVE OF ANOTHER
+                                        INDIVIDUAL OR GROUP OF INDIVIDUALS.
+                                        FURTHER, YOU AND DREAM REAL AGREE THAT A
+                                        DISPUTE CANNOT BE BROUGHT AS A CLASS, OR
+                                        OTHER TYPE OF REPRESENTATIVE ACTION,
+                                        WHETHER WITHIN OR OUTSIDE OF
+                                        ARBITRATION, OR ON BEHALF OF ANY OTHER
+                                        INDIVIDUAL OR GROUP OF INDIVIDUALS.
                                     </span>
                                 </p>
                                 <p className="c0">
