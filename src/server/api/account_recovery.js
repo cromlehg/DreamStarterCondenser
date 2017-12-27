@@ -191,11 +191,7 @@ export default function useAccountRecoveryApi(app) {
                     });
                     this.body = JSON.stringify({
                         status: 'found',
-                        provider: identity
-                            ? identity.provider === 'phone'
-                              ? 'email'
-                              : identity.provider
-                            : null,
+                        provider: 'email',
                     });
                 } else {
                     this.body = JSON.stringify({

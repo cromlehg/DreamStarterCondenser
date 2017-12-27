@@ -256,14 +256,6 @@ class PickAccount extends React.Component {
                         </a>
                     </div>
                 );
-            } else if (server_error === 'Phone number is not confirmed') {
-                next_step = (
-                    <div className="callout alert">
-                        <a href="/enter_mobile">
-                            Please verify your phone number
-                        </a>
-                    </div>
-                );
             } else {
                 next_step = (
                     <div className="callout alert">

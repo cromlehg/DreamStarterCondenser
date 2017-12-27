@@ -117,32 +117,7 @@ function* confirmEmailHandler() {
             distinct_id: this.session.uid,
         });
 
-    const eid_phone = yield models.Identity.findOne({
-        where: { user_id: eid.user_id, provider: 'phone', verified: true },
-    });
-
-    if (eid_phone) {
-        // this.flash = { success: "Thanks for confirming your email!" };
-        this.redirect('/approval?confirm_email=true');
-    } else {
-        this.flash = {
-            success:
-                'Thanks for confirming your email. Your phone needs to be confirmed before proceeding.',
-        };
-        this.redirect('/enter_mobile');
-    }
-
-    // check if the phone is confirmed then redirect to create account - this is useful when we invite users and send them the link
-    // const mid = yield models.Identity.findOne({
-    //     attributes: ["verified"],
-    //     where: { user_id: eid.user_id, provider: "phone" },
-    //     order: "id DESC"
-    // });
-    // if (mid && mid.verified) {
-    //     this.redirect("/create_account");
-    // } else {
-    //     this.redirect("/enter_mobile");
-    // }
+    this.redirect('/approval?confirm_email=true');
 }
 
 export default function useEnterAndConfirmEmailPages(app) {

@@ -10,8 +10,8 @@ class Privacy extends React.Component {
                         <h2>Effective April 1, 2016</h2>
                         <p>
                             <span className="section">1</span>
-                            We want you to understand how and why Steemit, Inc
-                            (“Steemit,” “we” or “us”) collects, uses, and shares
+                            We want you to understand how and why Dream, Inc
+                            (“Dream,” “we” or “us”) collects, uses, and shares
                             information about you when you access and use
                             Steemit’s websites, mobile apps, widgets, and other
                             online products and services (collectively, the
