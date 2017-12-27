@@ -107,7 +107,7 @@ function* confirmEmailHandler() {
         }
     );
     yield models.User.update(
-        { account_status: 'waiting' },
+        { account_status: 'approved' },
         {
             where: { id: eid.user_id, account_status: 'onhold' },
         }
