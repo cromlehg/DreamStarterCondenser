@@ -61,7 +61,7 @@
   },
   "registrar": {
     "account": "initminer",
-    "fee": "00.500 DREAMS",
+    "fee": "00.500 DREAM",
     "delegation": "150250.000000 VESTS",
     "signing_key": "5J..."
   },
