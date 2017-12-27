@@ -94,12 +94,11 @@
   .button {
 
     min-width: 240px;
-    border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
     transition: 0.2s all ease-in-out;
     text-transform: capitalize;
-    border-radius: 0;
+    border-radius: 4px;
     font-size: 18px;       
     background-color: $color-white;
     color: $color-blue-black;

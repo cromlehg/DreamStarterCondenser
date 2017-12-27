@@ -231,7 +231,7 @@
     margin-top: 0px;
     @include themify($themes) {
         border-bottom: themed('border'); 
-        border-bottom: 1px; 
+        border-bottom: 1px solid #e6ecf2; 
       }    
     @include MQ(M) {
         display: none;
@@ -701,6 +701,7 @@ a#changeLayout:focus {
           display: block;
           @include themify($themes) {
             border-bottom: themed('border'); 
+            border-bottom: 1px solid #e6ecf2; 
           } 
         }          
       }
