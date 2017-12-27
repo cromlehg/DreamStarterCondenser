@@ -450,7 +450,7 @@ export default function useEnterAndConfirmEmailPages(app) {
         }
 
         // redirect to phone verification
-        this.redirect('/enter_mobile' + makeParams(params));
+        this.redirect('/approval?confirm_email=true');
     });
 
     router.get('/confirm_email/:code', confirmEmailHandler);

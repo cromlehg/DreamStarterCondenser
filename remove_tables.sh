@@ -1,0 +1,9 @@
+drop table SequelizeMeta;
+drop table accounts;
+drop table arecs;
+drop table identities;
+drop table lists;
+drop table pages;
+drop table user_attributes;
+drop table users;
+drop table web_events;

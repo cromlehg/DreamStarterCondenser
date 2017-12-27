@@ -1,3 +1,5 @@
+config/default.json
+src/db/config/config.json
 .DS_Store
 .idea
 coverage
