@@ -137,10 +137,10 @@ class PostsIndex extends React.Component {
             if (posts && posts.size === 0) {
                 emptyText = (
                     <div>
-                        {'No ' +
+                        {'В категории ' +
                             topics_order +
                             (category ? ' #' + category : '') +
-                            ' posts found'}
+                            ' еще никто не мечтал'}
                     </div>
                 );
             }

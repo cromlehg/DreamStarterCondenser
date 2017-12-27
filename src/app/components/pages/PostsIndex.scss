@@ -214,7 +214,6 @@
     padding: 1.5em 4em;
     @include themify($themes) {
         border: themed('border'); 
-        box-shadow: 5px 5px 0 0 themed('contentBorderAccent');  
         background-color: themed('moduleBackgroundColor'); 
     }   
   }
@@ -222,7 +221,7 @@
   &:hover {
     @include MQ(L) {
       @include themify($themes) {
-          box-shadow: 6px 6px 0 0 themed('contentBorderAccent');  
+        box-shadow: 0px 5px 10px 0 rgba(0,0,0,0.03);
       }   
     }   
   }
@@ -232,6 +231,7 @@
     margin-top: 0px;
     @include themify($themes) {
         border-bottom: themed('border'); 
+        border-bottom: 1px; 
       }    
     @include MQ(M) {
         display: none;

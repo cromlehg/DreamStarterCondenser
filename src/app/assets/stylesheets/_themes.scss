@@ -14,7 +14,8 @@ $themes: (
     navBackgroundColor: $color-white,
     highlightBackgroundColor: #f3faf0,
     tableRowEvenBackgroundColor: #f4f4f4,
-    border: 1px solid $color-border-light,
+//    border: 1px solid $color-border-light,
+    border: 2px solid #e6ecf2,
     borderLight: 1px solid $color-border-light-lightest,
     borderDark: 1px solid $color-text-gray,
     borderAccent: 1px solid $color-blue,
@@ -46,9 +47,10 @@ $themes: (
     menuBackgroundColor: $color-background-dark,
     moduleMediumBackgroundColor: $color-transparent,
     navBackgroundColor: $color-white,
-    highlightBackgroundColor: #f3faf0,
+    highlightBackgroundColor: #f9fafc,
     tableRowEvenBackgroundColor: #f4f4f4,
-    border: 1px solid $color-border-light,
+//    border: 1px solid $color-border-light,
+    border: 2px solid #e6ecf2,
     borderLight: 1px solid $color-border-light-lightest,
     borderDark: 1px solid $color-text-gray,
     borderAccent: 1px solid $color-teal,
@@ -56,7 +58,7 @@ $themes: (
     iconColorSecondary: #cacaca,
     textColorPrimary: $color-text-dark,
     textColorSecondary: $color-text-gray,
-    textColorAccent: $color-text-teal,
+    textColorAccent: $color-teal-dark,
     textColorAccentHover: $color-teal,
     textColorError: $color-text-red,
     contentBorderAccent: $color-teal,
@@ -83,7 +85,8 @@ $themes: (
     navBackgroundColor: $color-background-dark,
     highlightBackgroundColor: $color-blue-black-darkest,
     tableRowEvenBackgroundColor: #212C33,
-    border: 1px solid $color-border-dark,
+//    border: 1px solid $color-border-dark,
+    border: 2px solid #e6ecf2,
     borderLight: 1px solid $color-border-dark-lightest,
     borderDark: 1px solid $color-text-gray-light,
     borderAccent: 1px solid $color-teal,
@@ -203,6 +206,7 @@ $themes: (
 .e-btn-hollow {
   background-color: transparent;
   transition: 0.2s all ease-in-out;
+  border-radius: 4px;
   box-shadow: 0px 0px 0px 0 rgba(0,0,0,0);
   @include themify($themes) {
     border: themed('borderAccent');
@@ -221,19 +225,17 @@ $themes: (
   font-weight: bold;
   transition: 0.2s all ease-in-out;
   text-transform: capitalize;
-  border-radius: 0;
+  border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
   @include font-size(18px);
   @include themify($themes) {
     background-color: themed('buttonBackground');
-    box-shadow: 0px 0px 0px 0 rgba(0,0,0,0), 5px 5px 0 0 themed('buttonBoxShadow');
     color: themed('buttonText');
   }
   &:hover, &:focus {
     @include themify($themes) {
       background-color: themed('buttonBackgroundHover');
-      box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1), 7px 7px 0 0 themed('buttonBoxShadowHover');
       color: themed('buttonTextHover');
       text-shadow: themed('buttonTextShadow');
     }
@@ -273,17 +275,14 @@ $themes: (
 .e-btn {
   &--black {
     background-color: $color-blue-black;
-    box-shadow: 0px 0px 0px 0 rgba(0,0,0,0), 5px 5px 0 0 $color-teal;
     color: $color-white;
     &:hover, &:focus {
       background-color: $color-teal;
-      box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1), 7px 7px 0 0 $color-blue-black;
       color: $color-white;
       text-shadow: 0 1px 0 rgba(0,0,0,0.20);
     }
     &:visited, &:active {
       background-color: $color-blue-black;
-      box-shadow: 0px 0px 0px 0 rgba(0,0,0,0), 5px 5px 0 0 $color-teal;
       color: $color-white;
     }
     &.disabled, &[disabled] {
