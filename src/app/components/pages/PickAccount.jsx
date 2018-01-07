@@ -182,7 +182,7 @@ class PickAccount extends React.Component {
                                 before you can create an additional account.
                             </p>
                             <p>
-                                Please note that Steemit can only register one
+                                Please note that Dream can only register one
                                 account per verified user.
                             </p>
                         </div>
@@ -238,7 +238,7 @@ class PickAccount extends React.Component {
         //         <div className="column">
         //             <div className="callout alert">
         //                 <p>Our records indicate that you already have steem account: <strong>{existingUserAccount}</strong></p>
-        //                 <p>In order to prevent abuse Steemit can only register one account per verified user.</p>
+        //                 <p>In order to prevent abuse Dream can only register one account per verified user.</p>
         //                 <p>You can either <a href="/login.html">login</a> to your existing account
         //                     or <a href="mailto:support@steemit.com">send us email</a> if you need a new account.</p>
         //             </div>
@@ -280,12 +280,12 @@ class PickAccount extends React.Component {
                         <Progress tabIndex="0" value={10} max={100} />
                         <br />
                         <h4 className="CreateAccount__title">
-                            Welcome to Steemit
+                            Welcome to Dream
                         </h4>
                         <div>
                             <p>
                                 Your account name is how you will be known on
-                                steemit.com.<br />
+                                dreamvp.com.<br />
                                 {/*Your account name <strong>can never be changed</strong>, so please choose carefully.*/}
                             </p>
                         </div>

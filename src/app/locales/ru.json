@@ -8,7 +8,7 @@
         "balance": "Баланс",
         "balances": "Балансы",
         "bid": "Покупка",
-        "blog": "Блог",
+        "blog": "Мечты",
         "browse": "Посмотреть",
         "buy": "Купить",
         "buy_or_sell": "Купить или Продать",
@@ -179,9 +179,9 @@
             "голос уже существует, пользователь должен обозначить желание убрать делегата",
         "only_one_APP_NAME_account_allowed_per_ip_address_every_10_minutes":
             "Только один DreamReal аккаунт разрешен с одного IP адреса каждые десять минут",
-        "resteem_this_post": "Поделиться этим постом",
+        "resteem_this_post": "Поделиться этой мечтой",
         "reblog": "Поделиться",
-        "write_your_story": "Написать свою историю",
+        "write_your_story": "Описать свою мечту",
         "remember_voting_and_posting_key": "Запомнить голос и постинг ключ",
         "auto_login_question_mark": "Заходить автоматически?",
         "hide_private_key": "Скрыть приватный ключ",
@@ -396,24 +396,23 @@
     "user_profile": {
         "unknown_account": "Неизвестный аккаунт",
         "user_hasnt_made_any_posts_yet":
-            "Похоже, что %(name)s еще не написал постов!",
-        "user_hasnt_started_bloggin_yet":
-            "Похоже. что %(name)s еще не завёл блог!",
+            "Похоже, что %(name)s еще не поделился с нами мечтой!",
+        "user_hasnt_started_bloggin_yet": "Похоже. что %(name)s еще не мечтал!",
         "user_hasnt_followed_anything_yet":
             "Похоже, что %(name)s еще ни на кого не подписан! Если, %(name)s недавно подписался на новых пользователей, их персонализированный канал будет заполняться сразу после появления нового контента.",
         "user_hasnt_had_any_replies_yet": "%(name)s еще не получил ответов",
         "looks_like_you_havent_posted_anything_yet":
-            "Похоже, ты еще ничего не опубликовал.",
-        "create_a_post": "Создать сообщение",
+            "Похоже, ты еще не мечтал.",
+        "create_a_post": "Создать мечту",
         "explore_trending_articles":
-            "Посмотреть статьи, набирающие популярность",
+            "Посмотреть мечты, набирающие популярность",
         "read_the_quick_start_guide": "Прочтите краткое руководство",
         "browse_the_faq": "Просмотреть ЧаВО",
         "followers": "Подписчики",
         "this_is_users_reputations_score_it_is_based_on_history_of_votes":
             "Это репутация %(name)s.\n\nРепутация рассчитывается на основе истории полученных голосов и используется для сокрытия низкокачественного контента.",
         "follower_count": {
-            "zero": "Нет подписчиков",
+            "zero": "Нет мечты",
             "one": "1 подписчик",
             "few": "%(count)s подписчика",
             "many": "%(count)s подписчиков",
@@ -427,7 +426,7 @@
             "other": "%(count)s подписок"
         },
         "post_count": {
-            "zero": "Постов нет",
+            "zero": "Нет мечты",
             "one": "1 пост",
             "few": "%(count)s поста",
             "many": "%(count)s постов",

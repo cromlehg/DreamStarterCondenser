@@ -232,7 +232,7 @@ async function universalRender({
     } catch (e) {
         console.error('Routing error:', e.toString(), location);
         return {
-            title: 'Routing error - Steemit',
+            title: 'Routing error - Dream',
             statusCode: 500,
             body: renderToString(
                 ErrorPage ? <ErrorPage /> : <span>Routing error</span>
@@ -242,7 +242,7 @@ async function universalRender({
     if (error || !renderProps) {
         // debug('error')('Router error', error);
         return {
-            title: 'Page Not Found - Steemit',
+            title: 'Page Not Found - Dream',
             statusCode: 404,
             body: renderToString(<NotFound />),
         };
@@ -332,7 +332,7 @@ async function universalRender({
         ) {
             // protect for invalid account
             return {
-                title: 'User Not Found - Steemit',
+                title: 'User Not Found - Dream',
                 statusCode: 404,
                 body: renderToString(<NotFound />),
             };
@@ -366,7 +366,7 @@ async function universalRender({
             } else {
                 // protect on invalid user pages (i.e /user/transferss)
                 return {
-                    title: 'Page Not Found - Steemit',
+                    title: 'Page Not Found - Dream',
                     statusCode: 404,
                     body: renderToString(<NotFound />),
                 };
@@ -427,7 +427,7 @@ async function universalRender({
         if (location.match(routeRegex.UserProfile1)) {
             console.error('User/not found: ', location);
             return {
-                title: 'Page Not Found - Steemit',
+                title: 'Page Not Found - Dream',
                 statusCode: 404,
                 body: renderToString(<NotFound />),
             };
@@ -437,7 +437,7 @@ async function universalRender({
             const stack_trace = e.stack || '[no stack]';
             console.error('State/store error: ', msg, stack_trace);
             return {
-                title: 'Server error - Steemit',
+                title: 'Server error - Dream',
                 statusCode: 500,
                 body: renderToString(<ErrorPage />),
             };
@@ -462,8 +462,8 @@ async function universalRender({
     }
 
     return {
-        title: 'Steemit',
-        titleBase: 'Steemit - ',
+        title: 'Dream',
+        titleBase: 'Dream - ',
         meta,
         statusCode: status,
         body: Iso.render(app, server_store.getState()),

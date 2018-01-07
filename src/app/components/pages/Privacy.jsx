@@ -5,7 +5,7 @@ class Privacy extends React.Component {
         return (
             <div className="Privacy row">
                 <div className="column large-12">
-                    <h1>Steemit, Inc Privacy Policy</h1>
+                    <h1>Dream, Inc Privacy Policy</h1>
                     <div>
                         <h2>Effective April 1, 2016</h2>
                         <p>
@@ -13,7 +13,7 @@ class Privacy extends React.Component {
                             We want you to understand how and why Dream, Inc
                             (“Dream,” “we” or “us”) collects, uses, and shares
                             information about you when you access and use
-                            Steemit’s websites, mobile apps, widgets, and other
+                            Dream’s websites, mobile apps, widgets, and other
                             online products and services (collectively, the
                             "Services") or when you otherwise interact with us.
                         </p>
@@ -45,7 +45,7 @@ class Privacy extends React.Component {
                         <p>
                             <span className="section">4</span>
                             If you purchase products or services from us (e.g.,
-                            Steem Power), we will collect certain information
+                            Dream Power), we will collect certain information
                             from you, including your name, address, email
                             address, and information about the product or
                             service you are purchasing. Payments are processed
@@ -148,10 +148,10 @@ class Privacy extends React.Component {
                                     Provide, maintain, and improve the Services;
                                 </li>
                                 <li>
-                                    Help protect the safety of Steemit and our
+                                    Help protect the safety of Dream and our
                                     users, which includes blocking suspected
                                     spammers, addressing abuse, and enforcing
-                                    the Steemit user agreement and the Terms of
+                                    the Dream user agreement and the Terms of
                                     Service;
                                 </li>
                                 <li>
@@ -205,7 +205,7 @@ class Privacy extends React.Component {
                                     When other users view your profile, they
                                     will be able to see information about your
                                     activities on the Services, such as your
-                                    username, prior posts and comments, Steem
+                                    username, prior posts and comments, Dream
                                     Power, and how long you have been a member
                                     of the Services.
                                 </li>
@@ -262,13 +262,13 @@ class Privacy extends React.Component {
                                 <li>
                                     We may share information if we believe your
                                     actions are inconsistent with our user
-                                    agreements, or other Steemit policies, or to
+                                    agreements, or other Dream policies, or to
                                     protect the rights, property, and safety of
                                     ourselves and others;
                                 </li>
                                 <li>
                                     We may share information between and among
-                                    Steemit, and its current and future parents,
+                                    Dream, and its current and future parents,
                                     affiliates, subsidiaries, and other
                                     companies under common control and
                                     ownership; and
@@ -309,13 +309,13 @@ class Privacy extends React.Component {
                             <span className="section">17</span>
                             Our ad partners and network may use cookies and use
                             related technologies to collect information when ads
-                            are delivered to you on our Services, but Steemit
-                            does not link to or provide your actual Steemit
-                            account details to these advertising partners. This
-                            means that Steemit does not share your individual
-                            account browsing habits with advertisers. Steemit
-                            cannot see advertisers’ cookies and advertisers will
-                            not see Steemit cookies.
+                            are delivered to you on our Services, but Dream does
+                            not link to or provide your actual Dream account
+                            details to these advertising partners. This means
+                            that Dream does not share your individual account
+                            browsing habits with advertisers. Dream cannot see
+                            advertisers’ cookies and advertisers will not see
+                            Dream cookies.
                         </p>
                     </div>
                     <div>
@@ -352,7 +352,7 @@ class Privacy extends React.Component {
                         <p>
                             <span className="section">21</span>
                             Although we welcome users from all walks of life,
-                            Steemit is not intended or directed at individuals
+                            Dream is not intended or directed at individuals
                             under the age of 13. Therefore, individuals under
                             the age of 13 may not create an account or otherwise
                             access or use the Services.
@@ -362,7 +362,7 @@ class Privacy extends React.Component {
                         <h2>Your Choices</h2>
                         <p>
                             <span className="section">22</span>
-                            As a Steemit user, you have choices about how to
+                            As a Dream user, you have choices about how to
                             protect and limit the collection, use, and
                             disclosure of, information about you. This includes:
                         </p>
@@ -392,7 +392,7 @@ class Privacy extends React.Component {
                             retain certain information about you as required by
                             law or for legitimate business purposes after you
                             delete your account. Any information that has been
-                            published to the Steem blockchain will also remain
+                            published to the Dream blockchain will also remain
                             indefinitely.
                         </p>
                     </div>
@@ -434,7 +434,7 @@ class Privacy extends React.Component {
                             to respond to web browsers’ DNT signals. When you
                             have DNT enabled, we may still use information
                             collected for analytics and measurement purposes or
-                            to otherwise provide our Services (e.g., Steemit.com
+                            to otherwise provide our Services (e.g., Dream.com
                             buttons), but we will not load any third-party
                             trackers. You may, however, opt out of having
                             information about you collected and used for
@@ -480,7 +480,7 @@ class Privacy extends React.Component {
                     <div>
                         <p>
                             <span className="section">31</span>
-                            Steemit complies with the U.S.-E.U. and U.S.-Swiss
+                            Dream complies with the U.S.-E.U. and U.S.-Swiss
                             Safe Harbor Privacy Principles of notice, choice,
                             onward transfer, security, data integrity, access,
                             and enforcement. Despite an adverse judgment by the

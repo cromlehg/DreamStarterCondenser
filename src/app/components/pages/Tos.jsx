@@ -5,7 +5,7 @@ class Tos extends React.Component {
         return (
             <div className="Tos row">
                 <div className="column">
-                    <h1>Steemit Terms of Service</h1>
+                    <h1>Dreamit Terms of Service</h1>
                     <p className="c0">
                         <span className="c1 c2">
                             Last Updated April 28, 2016
@@ -13,46 +13,46 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Welcome to Steemit! These Terms of Service (&ldquo;
+                            Welcome to Dreamit! These Terms of Service (&ldquo;
                         </span>
                         <span className="c1 c2">Terms</span>
                         <span className="c1">
                             &rdquo;) apply to your access to and use of
-                            Steemit.com and any other products or services that
+                            Dreamit.com and any other products or services that
                             link to these Terms (&ldquo;
                         </span>
-                        <span className="c1 c2">Steemit</span>
+                        <span className="c1 c2">Dreamit</span>
                         <span className="c1">
-                            &rdquo;). Steemit is provided by Steemit, Inc.
+                            &rdquo;). Dreamit is provided by Dreamit, Inc.
                             (&ldquo;
                         </span>
-                        <span className="c1 c2">Steemit</span>
+                        <span className="c1 c2">Dreamit</span>
                         <span className="c1">&rdquo;, &ldquo;</span>
                         <span className="c1 c2">we</span>
                         <span className="c1">&rdquo; or &ldquo;</span>
                         <span className="c1 c2">us</span>
                         <span className="c1">
-                            &rdquo;). By accessing or using Steemit, you agree
+                            &rdquo;). By accessing or using Dreamit, you agree
                             to be bound by these Terms. If you do not agree to
                             these Terms, including the mandatory arbitration
                             provision and class action waiver in Section 14, do
-                            not access or use Steemit. If we make changes to
+                            not access or use Dreamit. If we make changes to
                             these Terms, we will provide notice of those changes
                             by updating the &ldquo;
                         </span>
                         <span className="c1 c2">Last Updated</span>
                         <span className="c1">
-                            &rdquo; date above or posting notice on Steemit.
-                            Your continued use of Steemit will confirm your
+                            &rdquo; date above or posting notice on Dreamit.
+                            Your continued use of Dreamit will confirm your
                             acceptance of the changes.
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1 h">
                             You understand and agree that these Terms apply
-                            solely to your access to, and use of, Steemit and
-                            that, when you use other Steemit services such as
-                            Steemit.com or Steemitgifts.com, the terms and
+                            solely to your access to, and use of, Dreamit and
+                            that, when you use other Dreamit services such as
+                            Dreamit.com or Dreamitgifts.com, the terms and
                             policies particular to those services apply.
                         </span>
                     </p>
@@ -71,12 +71,12 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit is not targeted towards, nor intended for
+                            Dreamit is not targeted towards, nor intended for
                             use by, anyone under the age of 13. You must be at
-                            least 13 years of age to access or use Steemit. If
+                            least 13 years of age to access or use Dreamit. If
                             you are between 13 and 18 years of age (or the age
                             of legal majority where you reside), you may only
-                            access or use Steemit under the supervision of a
+                            access or use Dreamit under the supervision of a
                             parent or legal guardian who agrees to be bound by
                             these Terms.
                         </span>
@@ -88,39 +88,39 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit contains data, text, photographs, images,
+                            Dreamit contains data, text, photographs, images,
                             video, audio, graphics, articles, comments,
                             software, code, scripts and other content supplied
-                            by us, the Steem blockchain or our licensors, which
+                            by us, the Dream blockchain or our licensors, which
                             we call{' '}
                         </span>
                         <span className="c1 c2">
-                            &ldquo;Steemit Content.&rdquo;
+                            &ldquo;Dreamit Content.&rdquo;
                         </span>
                         <span className="c1">
-                            &nbsp;Steemit Content is protected by intellectual
+                            &nbsp;Dreamit Content is protected by intellectual
                             property laws, including copyright and other
                             proprietary rights of the United States and foreign
                             countries. Except as explicitly stated in these
-                            Terms, Steemit does not grant any express or implied
-                            rights to use Steemit Content.
+                            Terms, Dreamit does not grant any express or implied
+                            rights to use Dreamit Content.
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
                             You are granted a limited, nonexclusive,
                             non-transferable, and non-sublicensable license to
-                            access and use Steemit and Steemit Content for your
+                            access and use Dreamit and Dreamit Content for your
                             personal, non-commercial use. This license is
                             subject to these Terms and does not include any
                             right to: (a) distribute, publicly perform or
-                            publicly display any Steemit Content; (b) modify or
-                            otherwise make any derivative uses of Steemit or
-                            Steemit Content, or any portion thereof; (c) use any
+                            publicly display any Dreamit Content; (b) modify or
+                            otherwise make any derivative uses of Dreamit or
+                            Dreamit Content, or any portion thereof; (c) use any
                             data mining, robots or similar data gathering or
-                            extraction methods; and (d) use Steemit or Steemit
+                            extraction methods; and (d) use Dreamit or Dreamit
                             Content other than for their intended purposes. Any
-                            use of Steemit or Steemit Content other than as
+                            use of Dreamit or Dreamit Content other than as
                             authorized in these Terms is strictly prohibited and
                             will terminate the license granted herein. This
                             license is revocable at any time.
@@ -131,8 +131,8 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit is intended for a general audience and, as a
-                            result, some Steemit Content may discuss or depict
+                            Dreamit is intended for a general audience and, as a
+                            result, some Dreamit Content may discuss or depict
                             adult-oriented topics. We realize that this content
                             may not be appropriate or desirable for some of our
                             readers depending on their current location, age,
@@ -144,10 +144,10 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Marking Steemit Content as NSFW does not prevent you
+                            Marking Dreamit Content as NSFW does not prevent you
                             from being able to access this content but, instead,
                             helps you make informed decisions about the type of
-                            content you view on Steemit. You understand and
+                            content you view on Dreamit. You understand and
                             agree that you access content marked as NSFW at your
                             own risk.
                         </span>
@@ -157,25 +157,25 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            &ldquo;Steem,&rdquo; &ldquo; Steemit,&rdquo; the
-                            Steemit logo and any other product or service names,
-                            logos or slogans that may appear on Steemit are
-                            trademarks of Steemit and may not be copied,
+                            &ldquo;Dream,&rdquo; &ldquo; Dreamit,&rdquo; the
+                            Dreamit logo and any other product or service names,
+                            logos or slogans that may appear on Dreamit are
+                            trademarks of Dreamit and may not be copied,
                             imitated or used, in whole or in part, without our
                             prior written permission. You may not use any
                             metatags or other &ldquo; hidden text&rdquo;
-                            utilizing &ldquo;Steemit&rdquo; or any other name,
-                            trademark or product or service name of Steemit
+                            utilizing &ldquo;Dreamit&rdquo; or any other name,
+                            trademark or product or service name of Dreamit
                             without our prior written permission. In addition,
-                            the look and feel of Steemit, including, without
+                            the look and feel of Dreamit, including, without
                             limitation, all page headers, custom graphics,
                             button icons and scripts, constitute the service
-                            mark, trademark or trade dress of Steemit and may
+                            mark, trademark or trade dress of Dreamit and may
                             not be copied, imitated or used, in whole or in
                             part, without our prior written permission. All
                             other trademarks, registered trademarks, product
                             names and company names or logos mentioned or used
-                            on Steemit are the property of their respective
+                            on Dreamit are the property of their respective
                             owners and may not be copied, imitated or used, in
                             whole or in part, without the permission of the
                             applicable trademark holder. Reference to any
@@ -183,7 +183,7 @@ class Tos extends React.Component {
                             by name, trademark, manufacturer, supplier or
                             otherwise does not constitute or imply endorsement,
                             sponsorship or recommendation by
-                            Steemit.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Dreamit.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </p>
                     <p className="c0">
@@ -204,7 +204,7 @@ class Tos extends React.Component {
                             information stored within your Account, including,
                             but not limited to your Private Key (as defined
                             below at 10.2.). You accept and acknowledge that
-                            Steemit will not be responsible for any
+                            Dreamit will not be responsible for any
                             communication failures, disruptions, errors,
                             distortions or delays you may experience when using
                             the Services, however
@@ -284,12 +284,12 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            7. Agreement to Hold Steemit Harmless
+                            7. Agreement to Hold Dreamit Harmless
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            7.1. &nbsp;You agree to hold harmless Steemit (and
+                            7.1. &nbsp;You agree to hold harmless Dreamit (and
                             each of our officers, directors, members, employees,
                             agents and affiliates) from any claim, demand,
                             action, damage, loss, cost or expense, including
@@ -366,9 +366,9 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            9.1. &nbsp;You need not use a Steemit Account. If
+                            9.1. &nbsp;You need not use a Dreamit Account. If
                             you wish to use an Account, you must create an
-                            Account with Steemit to access the Services (&ldquo;
+                            Account with Dreamit to access the Services (&ldquo;
                             Account&rdquo;). When you create an Account, you are
                             strongly advised to take the following precautions,
                             as failure to do so may result in loss of access to,
@@ -398,7 +398,7 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            10. The Steemit
+                            10. The Dreamit
                             Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </p>
@@ -409,7 +409,7 @@ class Tos extends React.Component {
                             otherwise local) software that (a) generates and
                             stores DREAM ACCOUNT Addresses and encrypted Private
                             Keys (defined below), and (b) Facilitates the
-                            submission of DREAM transaction data to the Steem
+                            submission of DREAM transaction data to the Dream
                             network without requiring you to access the DREAM
                             command line
                             interface.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -420,23 +420,23 @@ class Tos extends React.Component {
                             10.2. &nbsp;Account Names and Private Keys. When you
                             create an Account, the Services generate and store a
                             cryptographic private and public key pair that you
-                            may use to send and receive STEEM and Steem Dollars
-                            via the Steem network.. The Private Key uniquely
+                            may use to send and receive STEEM and Dream Dollars
+                            via the Dream network.. The Private Key uniquely
                             matches the Account Name and must be used in
                             connection with the Account Name to authorize the
-                            transfer of STEEM and Steem Dollars from that
+                            transfer of STEEM and Dream Dollars from that
                             Account. You are solely responsible for maintaining
                             the security of your Private Key and any password
                             phrase associated with your wallet. You must keep
                             your Account, password phrase and Private Key access
                             information secure. Failure to do so may result in
-                            the loss of control of Steem, Steem Power and Steem
+                            the loss of control of Dream, Dream Power and Dream
                             Dollars associated with the Wallet.
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            10.3. &nbsp;No Password Retrieval. Steemit does not
+                            10.3. &nbsp;No Password Retrieval. Dreamit does not
                             receive or store your Account password, nor the
                             unencrypted keys and addresses. Therefore, we cannot
                             assist you with Account password retrieval. Our
@@ -448,7 +448,7 @@ class Tos extends React.Component {
                             password. If you have not safely stored a backup of
                             any Account Names and password pairs maintained in
                             your Account, you accept and acknowledge that any
-                            STEEM, Steem Dollars and Steem Power you have
+                            STEEM, Dream Dollars and Dream Power you have
                             associated with such Account will become
                             inaccessible if you do not have your Account
                             password.
@@ -457,21 +457,21 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             10.4. &nbsp;Transactions. In order to be completed,
-                            all proposed Steem transactions must be confirmed
-                            and recorded in the Steem public ledger via the
-                            Steem distributed consensus network (a peer-to-peer
+                            all proposed Dream transactions must be confirmed
+                            and recorded in the Dream public ledger via the
+                            Dream distributed consensus network (a peer-to-peer
                             economic network that operates on a cryptographic
                             protocol), which is not owned, controlled or
-                            operated by Steemit. The Steem Network is operated
+                            operated by Dreamit. The Dream Network is operated
                             by a decentralized network of independent third
-                            parties. Blockchain has no control over the Steem
+                            parties. Blockchain has no control over the Dream
                             network and therefore cannot and does not ensure
                             that any transaction details you submit via the
-                            Services will be confirmed via the Steem network.
+                            Services will be confirmed via the Dream network.
                             You acknowledge and agree that the transaction
                             details you submit via the Services may not be
                             completed, or may be substantially delayed, by the
-                            Steem network. You may use the Services to submit
+                            Dream network. You may use the Services to submit
                             these details to the
                             network.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -480,17 +480,17 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             10.5. &nbsp;No Storage or Transmission of STEEM,
-                            Steem Dollars or Steem Power. Steem, in any of its
-                            forms (STEEM, Steem Dollars and Steem Power) is an
+                            Dream Dollars or Dream Power. Dream, in any of its
+                            forms (STEEM, Dream Dollars and Dream Power) is an
                             intangible, digital asset. They exist only by virtue
-                            of the ownership record maintained in the Steem
+                            of the ownership record maintained in the Dream
                             network. The Service does not store, send or receive
-                            Steem. Any transfer of title that might occur in any
-                            STEEM, Steem Dollars or Steem Power occurs on the
-                            decentralized ledger within the Steem network and
+                            Dream. Any transfer of title that might occur in any
+                            STEEM, Dream Dollars or Dream Power occurs on the
+                            decentralized ledger within the Dream network and
                             not within the Services. We do not guarantee that
                             the Service can effect the transfer of title or
-                            right in any Steem, Steem Dollars or Steem Power.
+                            right in any Dream, Dream Dollars or Dream Power.
                         </span>
                     </p>
                     <p className="c0">
@@ -498,7 +498,7 @@ class Tos extends React.Component {
                             10.6. &nbsp;Relationship. Nothing in these Terms is
                             intended to nor shall create any partnership, joint
                             venture, agency, consultancy or trusteeship, you and
-                            Steemit being with respect to one another
+                            Dreamit being with respect to one another
                             independent contractors.
                         </span>
                     </p>
@@ -507,9 +507,9 @@ class Tos extends React.Component {
                             10.7. &nbsp;Accuracy of Information. You represent
                             and warrant that any information you provide via the
                             Services is accurate and complete. You accept and
-                            acknowledge that Steemit is not responsible for any
+                            acknowledge that Dreamit is not responsible for any
                             errors or omissions that you make in connection with
-                            any Steem transaction initiated via the Services,
+                            any Dream transaction initiated via the Services,
                             for instance, if you mistype an Account Name or
                             otherwise provide incorrect information. We strongly
                             encourage you to review your transaction details
@@ -519,10 +519,10 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             10.8. &nbsp;No Cancellations or Modifications. Once
-                            transaction details have been submitted to the Steem
+                            transaction details have been submitted to the Dream
                             network via the Services, The Services cannot assist
                             you to cancel or otherwise modify your transaction
-                            details. Steemit has no control over the Steem
+                            details. Dreamit has no control over the Dream
                             Network and does not have the ability to facilitate
                             any cancellation or modification requests.
                         </span>
@@ -535,22 +535,22 @@ class Tos extends React.Component {
                             transaction details via the Services, and it is your
                             responsibility to report and remit the correct tax
                             to the appropriate tax authority. You agree that
-                            Steemit is not responsible for determining whether
-                            taxes apply to your Steem transactions or for
+                            Dreamit is not responsible for determining whether
+                            taxes apply to your Dream transactions or for
                             collecting, reporting, withholding or remitting any
-                            taxes arising from any Steem
+                            taxes arising from any Dream
                             transactions.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            11. Fees for Using the Steemit Services
+                            11. Fees for Using the Dreamit Services
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            11.1. Company Fees Creating an Account. Steemit does
+                            11.1. Company Fees Creating an Account. Dreamit does
                             not currently charge fees for any Services, however
                             we reserve the right to do so in future, and in such
                             case any applicable fees will be displayed prior to
@@ -559,14 +559,14 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            12. No Right To Cancel And/Or Reverse Steem
+                            12. No Right To Cancel And/Or Reverse Dream
                             Transactions
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            14.1. If you use a Service to which Steem, Steem
-                            Dollars or Steem Power is transacted, you will not
+                            14.1. If you use a Service to which Dream, Dream
+                            Dollars or Dream Power is transacted, you will not
                             be able to change your mind once you have confirmed
                             that you wish to proceed with the Service or
                             transaction.
@@ -595,8 +595,8 @@ class Tos extends React.Component {
                         <span className="c1">
                             15.2. &nbsp;If you do not maintain a backup of your
                             Account data outside of the Services, you will be
-                            may not be able to access Steem, Steem Dollars and
-                            Steem Power associated with any Account Name
+                            may not be able to access Dream, Dream Dollars and
+                            Dream Power associated with any Account Name
                             maintained in your Account in the event that we
                             discontinue or deprecate the Services.
                         </span>
@@ -706,10 +706,10 @@ class Tos extends React.Component {
                     <p className="c6">
                         <span className="c1">
                             17.1.10. &nbsp;Reverse engineer any aspect of
-                            Steemit or do anything that might discover source
+                            Dreamit or do anything that might discover source
                             code or bypass or circumvent measures employed to
-                            prevent or limit access to any Steemit Content, area
-                            or code of Steemit.
+                            prevent or limit access to any Dreamit Content, area
+                            or code of Dreamit.
                         </span>
                     </p>
                     <p className="c6 c9">
@@ -722,19 +722,19 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit may include links and other content owned or
+                            Dreamit may include links and other content owned or
                             operated by third parties, including advertisements
                             and social &ldquo; widgets&rdquo; (we call these
                             &ldquo;
                         </span>
                         <span className="c1 c2">Third-Party Content</span>
                         <span className="c1">
-                            &ldquo;). You agree that Steemit is not responsible
+                            &ldquo;). You agree that Dreamit is not responsible
                             or liable for Third-Party Content and that you
                             access and use Third-Party Content at your own risk.
                             Your interactions with Third-Party Content are
                             solely between you and the third party providing the
-                            content. When you leave Steemit, you should
+                            content. When you leave Dreamit, you should
                             understand that these Terms no longer govern and
                             that the terms and policies of those third-party
                             sites or services will then apply.
@@ -749,21 +749,21 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             You may submit questions, comments, feedback,
-                            suggestions, and other information regarding Steemit
+                            suggestions, and other information regarding Dreamit
                             (we call this &ldquo;
                         </span>
                         <span className="c1 c2">Feedback</span>
                         <span className="c1">
                             &ldquo;). You acknowledge and agree that Feedback is
                             non-confidential and will become the sole property
-                            of Steemit. Steemit shall own exclusive rights,
+                            of Dreamit. Dreamit shall own exclusive rights,
                             including, without limitation, all intellectual
                             property rights, in and to such Feedback and is
                             entitled to the unrestricted use and dissemination
                             of this Feedback for any purpose, without
                             acknowledgment or compensation to you. You agree to
-                            execute any documentation required by Steemit to
-                            confirm such assignment to Steemit.
+                            execute any documentation required by Dreamit to
+                            confirm such assignment to Dreamit.
                         </span>
                     </p>
                     <p className="c0">
@@ -771,11 +771,11 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit respects the intellectual property of others
-                            by not reading infringed content from the Steem
+                            Dreamit respects the intellectual property of others
+                            by not reading infringed content from the Dream
                             blockchain. If you believe that your work has been
                             copied in a way that constitutes copyright
-                            infringement, you may notify Steemit&rsquo; s
+                            infringement, you may notify Dreamit&rsquo; s
                             Designated Agent by contacting:
                         </span>
                     </p>
@@ -798,8 +798,8 @@ class Tos extends React.Component {
                             in your notification that the material or activity
                             is infringing, you may be liable for any damages,
                             including costs and attorneys&rsquo; fees, incurred
-                            by Steemit or the alleged infringer, as the result
-                            of Steemit&rsquo;s relying upon such
+                            by Dreamit or the alleged infringer, as the result
+                            of Dreamit&rsquo;s relying upon such
                             misrepresentation in removing or disabling access to
                             the material or activity claimed to be infringing.
                         </span>
@@ -870,17 +870,17 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            23. Modifications to Steemit
+                            23. Modifications to Dreamit
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit reserves the right to modify or discontinue,
-                            temporarily or permanently, Steemit, or any features
-                            or portions of Steemit, without prior notice. You
-                            agree that Steemit will not be liable for any
+                            Dreamit reserves the right to modify or discontinue,
+                            temporarily or permanently, Dreamit, or any features
+                            or portions of Dreamit, without prior notice. You
+                            agree that Dreamit will not be liable for any
                             modification, suspension or discontinuance of
-                            Steemit, or any part of Steemit.
+                            Dreamit, or any part of Dreamit.
                         </span>
                     </p>
                     <p className="c0">
@@ -904,14 +904,14 @@ class Tos extends React.Component {
                             seeks injunctive or other equitable relief for the
                             alleged unlawful use of copyrights, trademarks,
                             trade names, logos, trade secrets or patents, you
-                            and Steemit: (a) waive your right to have any and
+                            and Dreamit: (a) waive your right to have any and
                             all disputes or Claims arising from these Terms or
-                            Steemit (collectively, &ldquo;
+                            Dreamit (collectively, &ldquo;
                         </span>
                         <span className="c1 c2">Disputes</span>
                         <span className="c1">
                             &ldquo;) resolved in a court; and (b) waive your
-                            right to a jury trial. Instead, you and Steemit will
+                            right to a jury trial. Instead, you and Dreamit will
                             arbitrate Disputes through binding arbitration
                             (which is the referral of a Dispute to one or more
                             persons charged with reviewing the Dispute and
@@ -951,7 +951,7 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            You and Steemit agree that these Terms affect
+                            You and Dreamit agree that these Terms affect
                             interstate commerce and that the enforceability of
                             this Section 14 shall be governed by, construed and
                             enforced, both substantively and procedurally, by
@@ -965,31 +965,31 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            You and Steemit agree that you will notify each
+                            You and Dreamit agree that you will notify each
                             other in writing of any Dispute within thirty (30)
                             days of when it arises so that the parties can
                             attempt, in good faith, to resolve the Dispute
-                            informally. Notice to Steemit shall be provided by
+                            informally. Notice to Dreamit shall be provided by
                             filling out the form available at
                             https://steemit.com/contact/ or sending an email to{' '}
                         </span>
-                        <span className="c4">contact@Steemit.com</span>
+                        <span className="c4">contact@Dreamit.com</span>
                         <span className="c1">
                             . Your notice must include: (1) your name, postal
                             address and email address; (2) a description of the
                             nature or basis of the Dispute; and (3) the specific
-                            relief that you are seeking. If you and Steemit
+                            relief that you are seeking. If you and Dreamit
                             cannot agree how to resolve the Dispute within
-                            thirty (30) days of Steemit receiving the notice,
-                            either you or Steemit may, as appropriate pursuant
+                            thirty (30) days of Dreamit receiving the notice,
+                            either you or Dreamit may, as appropriate pursuant
                             to this Section 14, commence an arbitration
-                            proceeding or file a claim in court. You and Steemit
+                            proceeding or file a claim in court. You and Dreamit
                             agree that any arbitration or claim must be
                             commenced or filed within one (1) year after the
-                            Dispute arose; otherwise, you and Steemit agree that
+                            Dispute arose; otherwise, you and Dreamit agree that
                             the claim is permanently barred (which means that
                             you will no longer have the right to assert a claim
-                            regarding the Dispute). You and Steemit agree that:
+                            regarding the Dispute). You and Dreamit agree that:
                             (a) any arbitration will occur in San Francisco
                             County, California; (b) arbitration will be
                             conducted confidentially by a single arbitrator in
@@ -1071,8 +1071,8 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            These Terms and your access to and use of Steemit
-                            and the Steemit Content will be governed by, and
+                            These Terms and your access to and use of Dreamit
+                            and the Dreamit Content will be governed by, and
                             construed in accordance with, the laws of
                             California, without resort to its conflict of law
                             provisions. To the extent the arbitration provision
@@ -1092,10 +1092,10 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit reserves the right, without notice and in
+                            Dreamit reserves the right, without notice and in
                             our sole discretion, to terminate your license to
-                            access and use Steemit and to block or prevent your
-                            future access to, and use of, Steemit.
+                            access and use Dreamit and to block or prevent your
+                            future access to, and use of, Dreamit.
                         </span>
                     </p>
                     <p className="c0">
@@ -1118,10 +1118,10 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Questions or comments about Steemit may be directed
+                            Questions or comments about Dreamit may be directed
                             to{' '}
                             <a href="mailto:contact@steemit.com">
-                                contact@steemit.com
+                                contact@dreamvp.com
                             </a>
                         </span>
                     </p>

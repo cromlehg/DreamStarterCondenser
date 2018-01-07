@@ -190,7 +190,7 @@ function* handleFacebookCallback() {
         //     return;
         // }
         // if (!u.verified) {
-        //     throw new Error('Not verified Facebook account. Please verify your Facebook account and try again to sign up to Steemit.');
+        //     throw new Error('Not verified Facebook account. Please verify your Facebook account and try again to sign up to Dream.');
         // }
 
         if (user) {

@@ -13,14 +13,12 @@ class NotFound extends React.Component {
                             <ul className="menu">
                                 <li className="Header__top-logo">
                                     <Link to="/">
-                                        <Icon name="steem" size="2x" />
+                                        <img src="/images/logo-small.png" />
                                     </Link>
                                 </li>
                                 <li className="Header__top-steemit show-for-medium noPrint">
                                     <a href="/">
-                                        steemit<span className="beta">
-                                            beta
-                                        </span>
+                                        dream<span className="beta">beta</span>
                                     </a>
                                 </li>
                             </ul>
@@ -29,7 +27,7 @@ class NotFound extends React.Component {
                 </div>
                 <div className="NotFound float-center">
                     <div>
-                        <Icon name="steem" size="4x" />
+                        <img src="/images/logo-small.png" />
                         <h4 className="NotFound__header">
                             Sorry! This page doesn't exist.
                         </h4>

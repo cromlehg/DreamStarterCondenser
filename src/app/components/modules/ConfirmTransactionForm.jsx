@@ -6,7 +6,7 @@ import tt from 'counterpart';
 
 class ConfirmTransactionForm extends Component {
     static propTypes = {
-        //Steemit
+        //Dreamit
         onCancel: PropTypes.func,
         warning: PropTypes.string,
         checkbox: PropTypes.string,

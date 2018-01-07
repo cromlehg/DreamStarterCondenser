@@ -215,7 +215,7 @@ class CreateAccount extends React.Component {
                         <br />
                         <div className="callout alert">
                             <p>
-                                Membership to Steemit.com is now under
+                                Membership to dreamvp.com is now under
                                 invitation only because of unexpectedly high
                                 sign up rate.
                             </p>
@@ -267,7 +267,7 @@ class CreateAccount extends React.Component {
                                 before you can create another account.
                             </p>
                             <p>
-                                Please note that Steemit can only register one
+                                Please note that Dream can only register one
                                 account per verified user.
                             </p>
                         </div>
@@ -328,19 +328,19 @@ class CreateAccount extends React.Component {
                 <div className="CreateAccount row">
                     <div className="column">
                         <h4>
-                            Please read the Steemit Rules and fill in the form
-                            below to create your Steemit account
+                            Please read the Dream Rules and fill in the form
+                            below to create your Dream account
                         </h4>
                         {/*<Progress tabIndex="0" value={95} max={100} />*/}
                         {showRules ? (
                             <div className="CreateAccount__rules">
                                 <p>
-                                    The first rule of Steemit is: Do not lose
-                                    your password.<br />
-                                    The second rule of Steemit is: Do{' '}
+                                    The first rule of Dream is: Do not lose your
+                                    password.<br />
+                                    The second rule of Dream is: Do{' '}
                                     <strong>not</strong> lose your password.<br
                                     />
-                                    The third rule of Steemit is: We cannot
+                                    The third rule of Dream is: We cannot
                                     recover your password, or your account if
                                     you lose your password.<br />
                                     The forth rule: Do not tell anyone your
@@ -351,9 +351,9 @@ class CreateAccount extends React.Component {
                                     <br />
                                     Seriously, we are, for technical reasons,
                                     entirely unable to gain access to an account
-                                    without knowing the password. Steemit is a
-                                    new model, entirely unlike other sites on
-                                    the Internet. It's not simply policy:{' '}
+                                    without knowing the password. Dream is a new
+                                    model, entirely unlike other sites on the
+                                    Internet. It's not simply policy:{' '}
                                     <strong>
                                         We cannot recover your account or
                                         password if you lose it.
@@ -392,7 +392,7 @@ class CreateAccount extends React.Component {
                                         this.setState({ showRules: true })
                                     }
                                 >
-                                    Steemit Rules &nbsp; &raquo;
+                                    Dream Rules &nbsp; &raquo;
                                 </a>
                             </div>
                         )}

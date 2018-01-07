@@ -12,8 +12,6 @@ export const icons = [
     'twitter',
     'linkedin',
     'link',
-    'logo',
-    'logotype',
     'clock',
     'extlink',
     'steem',
