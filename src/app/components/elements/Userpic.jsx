@@ -35,9 +35,15 @@ class Userpic extends Component {
             }
         }
 
+        const md = JSON.parse(json_metadata);
         const style = {
+            //'url(' + imageProxy() + `u/${account}/avatar${avSize})`,
             backgroundImage:
-                'url(' + imageProxy() + `u/${account}/avatar${avSize})`,
+                'url(' +
+                imageProxy() +
+                '48x48/' +
+                md.profile.profile_image +
+                ')',
         };
 
         return <div className="Userpic" style={style} />;
