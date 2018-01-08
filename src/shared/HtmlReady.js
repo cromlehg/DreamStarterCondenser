@@ -138,15 +138,15 @@ function link(state, child) {
         if (state.mutate) {
             // If this link is not relative, http, or https -- add https.
             if (!/^((#)|(\/(?!\/))|((https?:)?\/\/))/.test(url)) {
-                child.setAttribute('href', 'https://' + url);
+                child.setAttribute('href', 'http://' + url);
             }
 
             // Unlink potential phishing attempts
             if (
                 child.textContent.match(
-                    /https?:\/\/(.*@)?(www\.)?steemit\.com/
+                    /https?:\/\/(.*@)?(www\.)?dreamvp\.com/
                 ) &&
-                !url.match(/https?:\/\/(.*@)?(www\.)?steemit\.com/)
+                !url.match(/https?:\/\/(.*@)?(www\.)?dreamvp\.com/)
             ) {
                 const phishyDiv = child.ownerDocument.createElement('div');
                 phishyDiv.textContent = `${child.textContent} / ${url}`;
@@ -205,7 +205,7 @@ function img(state, child) {
     }
 }
 
-// For all img elements with non-local URLs, prepend the proxy URL (e.g. `https://img0.steemit.com/0x0/`)
+// For all img elements with non-local URLs, prepend the proxy URL (e.g. `https://img0.dreamvp.com/0x0/`)
 function proxifyImages(doc) {
     if (!doc) return;
     [...doc.getElementsByTagName('img')].forEach(node => {
@@ -359,7 +359,7 @@ function embedVimeoNode(child, links /*images*/) {
 
 function ipfsPrefix(url) {
     if ($STM_Config.ipfs_prefix) {
-        // Convert //ipfs/xxx  or /ipfs/xxx  into  https://steemit.com/ipfs/xxxxx
+        // Convert //ipfs/xxx  or /ipfs/xxx  into  https://dreamvp.com/ipfs/xxxxx
         if (/^\/?\/ipfs\//.test(url)) {
             const slash = url.charAt(1) === '/' ? 1 : 0;
             url = url.substring(slash + '/ipfs/'.length); // start with only 1 /

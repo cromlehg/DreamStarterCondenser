@@ -168,8 +168,8 @@ export default ({
             if (!href) href = '#';
             href = href.trim();
             const attys = { href };
-            // If it's not a (relative or absolute) steemit URL...
-            if (!href.match(/^(\/(?!\/)|https:\/\/steemit.com)/)) {
+            // If it's not a (relative or absolute) dream URL...
+            if (!href.match(/^(\/(?!\/)|http:\/\/dreamvp.com)/)) {
                 // attys.target = '_blank' // pending iframe impl https://mathiasbynens.github.io/rel-noopener/
                 attys.rel = highQualityPost ? 'noopener' : 'nofollow noopener';
             }

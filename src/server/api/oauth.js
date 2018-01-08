@@ -166,7 +166,7 @@ function* handleFacebookCallback() {
                         status: 'account not found',
                     });
                     this.body =
-                        'We cannot verify the user account. Please contact support@steemit.com';
+                        'We cannot verify the user account. Please contact support@dreamvp.com';
                 }
             } else {
                 console.log(
@@ -178,7 +178,7 @@ function* handleFacebookCallback() {
                 );
                 account_recovery_record.update({ status: 'user not found' });
                 this.body =
-                    'We cannot verify the user account. Please contact support@steemit.com';
+                    'We cannot verify the user account. Please contact support@dreamvp.com';
             }
             return null;
         }
@@ -238,7 +238,7 @@ function retrieveRedditUserData(access_token) {
             .get('https://oauth.reddit.com/api/v1/me.json?raw_json=1')
             .headers({
                 Authorization: `bearer ${access_token}`,
-                'User-Agent': 'Steembot/1.0 (+http://steemit.com)',
+                'User-Agent': 'Steembot/1.0 (+http://dreamvp.com)',
                 Accept: 'application/json',
                 'Content-type': 'application/json',
             })
@@ -316,7 +316,7 @@ function* handleRedditCallback() {
                         status: 'account not found',
                     });
                     this.body =
-                        'We cannot verify the user account. Please contact support@steemit.com';
+                        'We cannot verify the user account. Please contact support@dreamvp.com';
                 }
             } else {
                 console.log(
@@ -328,7 +328,7 @@ function* handleRedditCallback() {
                 );
                 account_recovery_record.update({ status: 'user not found' });
                 this.body =
-                    'We cannot verify the user account. Please contact support@steemit.com';
+                    'We cannot verify the user account. Please contact support@dreamvp.com';
             }
             return null;
         }

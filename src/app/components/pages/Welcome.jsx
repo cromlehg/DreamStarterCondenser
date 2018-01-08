@@ -7,10 +7,13 @@ class Welcome extends React.Component {
             <div className="row">
                 <div className="column large-8 medium-10 small-12">
                     <div className="Welcome__banner">
-                        <div className="Welcome__welcome">Welcome to</div>
+                        <div className="Welcome__welcome">
+                            Добро пожаловать в Dream!
+                        </div>
                         <img src={require('app/assets/images/welcome.jpg')} />
                         <div className="Welcome__caption">
-                            Come for the rewards. Stay for the community.
+                            Рассказывайте о своих мечтах и превращайте их в
+                            реальность!
                         </div>
                     </div>
                     <hr />

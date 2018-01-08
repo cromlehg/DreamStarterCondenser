@@ -946,7 +946,7 @@ class TermsAgree extends Component {
                                 </p>
                                 <p className="c0">
                                     <span className="c1">
-                                        contact@steemit.com
+                                        contact@dreamvp.com
                                     </span>
                                 </p>
                                 <p className="c0">
@@ -1178,11 +1178,11 @@ class TermsAgree extends Component {
                                         Dispute informally. Notice to Dreamit
                                         shall be provided by filling out the
                                         form available at
-                                        https://steemit.com/contact/ or sending
+                                        http://dreamvp.com/contact/ or sending
                                         an email to{' '}
                                     </span>
                                     <span className="c4">
-                                        contact@Dreamit.com
+                                        contact@dreamvp.com
                                     </span>
                                     <span className="c1">
                                         . Your notice must include: (1) your
@@ -1364,8 +1364,8 @@ class TermsAgree extends Component {
                                     <span className="c1">
                                         Questions or comments about Dreamit may
                                         be directed to{' '}
-                                        <a href="mailto:contact@steemit.com">
-                                            contact@steemit.com
+                                        <a href="mailto:contact@dreamvp.com">
+                                            contact@dreamvp.com
                                         </a>
                                     </span>
                                 </p>

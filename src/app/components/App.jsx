@@ -215,7 +215,7 @@ class App extends React.Component {
                             />
                             <ul>
                                 <li>
-                                    /*<a href="https://steemit.com/steemit/@steemitblog/steemit-com-is-now-open-source">
+                                    /*<a href="http://dreamvp.com/dream/@dreamblog/dream-com-is-now-open-source">
                                         ...STORY TEXT...
                                     </a>*/
                                 </li>

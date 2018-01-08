@@ -542,7 +542,6 @@ function* uploadImage({
         dataBs64 = dataUrl.substring(commaIdx + 1);
         data = new Buffer(dataBs64, 'base64');
     }
-
     // The challenge needs to be prefixed with a constant (both on the server and checked on the client) to make sure the server can't easily make the client sign a transaction doing something else.
     const prefix = new Buffer('ImageSigningChallenge');
     const bufSha = hash.sha256(Buffer.concat([prefix, data]));
@@ -559,6 +558,8 @@ function* uploadImage({
 
     const sig = Signature.signBufferSha256(bufSha, d);
     const postUrl = `${$STM_Config.upload_image}/${username}/${sig.toHex()}`;
+    console.log('Post URL:');
+    console.log(postUrl);
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', postUrl);

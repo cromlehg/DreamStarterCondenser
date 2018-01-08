@@ -161,7 +161,7 @@ class PickAccount extends React.Component {
                                     Firefox
                                 </a>
                                 are well-tested and known to work well with
-                                steemit.com.
+                                dreamvp.com.
                             </p>
                         </div>
                     </div>
@@ -237,10 +237,10 @@ class PickAccount extends React.Component {
         //     return <div className="row">
         //         <div className="column">
         //             <div className="callout alert">
-        //                 <p>Our records indicate that you already have steem account: <strong>{existingUserAccount}</strong></p>
+        //                 <p>Our records indicate that you already have dream account: <strong>{existingUserAccount}</strong></p>
         //                 <p>In order to prevent abuse Dream can only register one account per verified user.</p>
         //                 <p>You can either <a href="/login.html">login</a> to your existing account
-        //                     or <a href="mailto:support@steemit.com">send us email</a> if you need a new account.</p>
+        //                     or <a href="mailto:support@dreamvp.com">send us email</a> if you need a new account.</p>
         //             </div>
         //         </div>
         //     </div>;

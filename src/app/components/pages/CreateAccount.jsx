@@ -245,7 +245,7 @@ class CreateAccount extends React.Component {
                                     Firefox
                                 </a>
                                 are well tested and known to work with
-                                steemit.com.
+                                dreamvp.com.
                             </p>
                         </div>
                     </div>
@@ -287,8 +287,8 @@ class CreateAccount extends React.Component {
                                 approved yet or you already created an account.<br
                                 />
                                 Please try again later or contact{' '}
-                                <a href="mailto:support@steemit.com">
-                                    support@steemit.com
+                                <a href="mailto:support@dreamvp.com">
+                                    support@dreamvp.com
                                 </a>{' '}
                                 for the status of your request.<br />
                                 If you didn't submit your sign up application

@@ -46,12 +46,12 @@ class ExplorePost extends Component {
 
     render() {
         const link = this.props.permlink;
-        const steemd = 'https://steemd.com' + link;
-        const steemdb = 'https://steemdb.com' + link;
-        const busy = 'https://busy.org' + link;
-        const steemit = 'https://steemit.com' + link;
+        const steemd = 'http://dreamvp.com' + link;
+        const steemdb = 'http://dreamvp.com' + link;
+        const busy = 'http://busy.org' + link;
+        const steemit = 'http://dreamvp.com' + link;
         const phist =
-            'https://phist.steemdata.com/history?identifier=steemit.com' + link;
+            'http://phist.dreamvp.com/history?identifier=dreamvp.com' + link;
         let text =
             this.state.copied == true
                 ? tt('explorepost_jsx.copied')

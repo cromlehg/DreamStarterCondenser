@@ -55,7 +55,7 @@ export default function extractMeta(chain_data, rp) {
             metas.push({ name: 'og:url', content: url });
             metas.push({
                 name: 'og:image',
-                content: image || 'https://steemit.com/images/logo-mini.png',
+                content: image || 'http://dreamvp.com/images/logo-small.png',
             });
             metas.push({ name: 'og:description', content: desc });
             metas.push({ name: 'og:site_name', content: 'Dream' });
@@ -77,7 +77,7 @@ export default function extractMeta(chain_data, rp) {
             metas.push({
                 name: 'twitter:image',
                 content:
-                    image || 'https://steemit.com/images/steemit-twshare-2.png',
+                    image || 'http://dreamvp.com/images/steemit-twshare-2.png',
             });
         } else {
             addSiteMeta(metas);
@@ -89,9 +89,9 @@ export default function extractMeta(chain_data, rp) {
         if (name == null) name = account.name;
         if (about == null)
             about =
-                'Join thousands on steemit who share, post and earn rewards.';
+                'Join thousands on dream who share, dream and earn rewards.';
         if (profile_image == null)
-            profile_image = 'https://steemit.com/images/steemit-twshare-2.png';
+            profile_image = 'http://dreamvp.com/images/steemit-twshare-2.png';
         // Set profile tags
         const title = `@${account.name}`;
         const desc = `The latest posts from ${name}. Follow me at @${
@@ -104,7 +104,7 @@ export default function extractMeta(chain_data, rp) {
 
         // Twitter card data
         metas.push({ name: 'twitter:card', content: 'summary' });
-        metas.push({ name: 'twitter:site', content: '@steemit' });
+        metas.push({ name: 'twitter:site', content: '@dreamreal' });
         metas.push({ name: 'twitter:title', content: title });
         metas.push({ name: 'twitter:description', content: desc });
         metas.push({ name: 'twitter:image', content: image });

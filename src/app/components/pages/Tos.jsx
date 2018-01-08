@@ -780,7 +780,7 @@ class Tos extends React.Component {
                         </span>
                     </p>
                     <p className="c0">
-                        <span className="c1">contact@steemit.com</span>
+                        <span className="c1">contact@dreamvp.com</span>
                     </p>
                     <p className="c0">
                         <span className="c1">Please see </span>
@@ -971,9 +971,9 @@ class Tos extends React.Component {
                             attempt, in good faith, to resolve the Dispute
                             informally. Notice to Dreamit shall be provided by
                             filling out the form available at
-                            https://steemit.com/contact/ or sending an email to{' '}
+                            http://dreamvp.com/contact/ or sending an email to{' '}
                         </span>
-                        <span className="c4">contact@Dreamit.com</span>
+                        <span className="c4">contact@dreamvp.com</span>
                         <span className="c1">
                             . Your notice must include: (1) your name, postal
                             address and email address; (2) a description of the
@@ -1118,9 +1118,8 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Questions or comments about Dreamit may be directed
-                            to{' '}
-                            <a href="mailto:contact@steemit.com">
+                            Questions or comments about Dream may be directed to{' '}
+                            <a href="mailto:contact@dreamvp.com">
                                 contact@dreamvp.com
                             </a>
                         </span>
