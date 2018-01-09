@@ -24,26 +24,31 @@ class Userpic extends Component {
         const avSize = size && sizeList.indexOf(size) > -1 ? '/' + size : '';
 
         // try to extract image url from users metaData
-        if (hideIfDefault) {
-            try {
-                const md = JSON.parse(json_metadata);
-                if (!/^(https?:)\/\//.test(md.profile.profile_image)) {
-                    return null;
-                }
-            } catch (e) {
+        //if (hideIfDefault) {
+        try {
+            const md = JSON.parse(json_metadata);
+            if (!/^(https?:)\/\//.test(md.profile.profile_image)) {
                 return null;
             }
-        }
 
-        const md = JSON.parse(json_metadata);
+            const style = {
+                backgroundImage:
+                    'url(' +
+                    imageProxy() +
+                    '48x48/' +
+                    md.profile.profile_image +
+                    ')',
+            };
+
+            return <div className="Userpic" style={style} />;
+        } catch (e) {
+            return null;
+        }
+        //}
+
         const style = {
-            //'url(' + imageProxy() + `u/${account}/avatar${avSize})`,
             backgroundImage:
-                'url(' +
-                imageProxy() +
-                '48x48/' +
-                md.profile.profile_image +
-                ')',
+                'url(' + imageProxy() + `u/${account}/avatar${avSize})`,
         };
 
         return <div className="Userpic" style={style} />;
