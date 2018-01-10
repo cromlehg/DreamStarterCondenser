@@ -16,6 +16,7 @@ import {
 import { loadFollows } from 'app/redux/FollowSaga';
 import { translate } from 'app/Translator';
 import DMCAUserList from 'app/utils/DMCAUserList';
+import { serverApiUploadImage } from 'app/utils/ServerApiClient';
 
 export const userWatches = [
     watchRemoveHighSecurityKeys, // keep first to remove keys early when a page change happens
@@ -557,9 +558,8 @@ function* uploadImage({
     }
 
     const sig = Signature.signBufferSha256(bufSha, d);
-    const postUrl = `${$STM_Config.upload_image}/${username}/${sig.toHex()}`;
-    console.log('Post URL:');
-    console.log(postUrl);
+    //const postUrl = `${$STM_Config.upload_image}/${username}/${sig.toHex()}`;
+    const postUrl = `${$STM_Config.upload_image}`;
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', postUrl);

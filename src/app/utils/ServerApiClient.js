@@ -11,6 +11,13 @@ const request_base = {
     },
 };
 
+export function serverApiUploadImage() {
+    const request = Object.assign({}, request_base, {
+        body: JSON.stringify({ csrf: $STM_csrf }),
+    });
+    fetch('/api/v1/upload_image', request);
+}
+
 export function serverApiLogin(account, signatures) {
     if (!process.env.BROWSER || window.$STM_ServerBusy) return;
     const request = Object.assign({}, request_base, {

@@ -1,4 +1,5 @@
 /*global $STM_Config */
+import fs from 'fs';
 import koa_router from 'koa-router';
 import koa_body from 'koa-body';
 import models from 'db/models';
@@ -17,6 +18,7 @@ import Mixpanel from 'mixpanel';
 import Tarantool from 'db/tarantool';
 import { PublicKey, Signature, hash } from '@steemit/steem-js/lib/auth/ecc';
 import { api, broadcast } from '@steemit/steem-js';
+import request from 'request';
 
 const mixpanel = config.get('mixpanel')
     ? Mixpanel.init(config.get('mixpanel'))
@@ -51,9 +53,8 @@ function logRequest(path, ctx, extra) {
 export default function useGeneralApi(app) {
     const router = koa_router({ prefix: '/api/v1' });
     app.use(router.routes());
-    const koaBody = koa_body();
 
-    router.post('/accounts_wait', koaBody, function*() {
+    router.post('/accounts_wait', koa_body(), function*() {
         if (rateLimitReq(this, this.req)) return;
         const params = this.request.body;
         const account =
@@ -100,7 +101,7 @@ export default function useGeneralApi(app) {
         );
     });
 
-    router.post('/accounts', koaBody, function*() {
+    router.post('/accounts', koa_body(), function*() {
         if (rateLimitReq(this, this.req)) return;
         const params = this.request.body;
         const account =
@@ -269,7 +270,7 @@ export default function useGeneralApi(app) {
         recordWebEvent(this, 'api/accounts', account ? account.name : 'n/a');
     });
 
-    router.post('/update_email', koaBody, function*() {
+    router.post('/update_email', koa_body(), function*() {
         if (rateLimitReq(this, this.req)) return;
         const params = this.request.body;
         const { csrf, email } =
@@ -310,7 +311,7 @@ export default function useGeneralApi(app) {
         recordWebEvent(this, 'api/update_email', email);
     });
 
-    router.post('/login_account', koaBody, function*() {
+    router.post('/login_account', koa_body(), function*() {
         // if (rateLimitReq(this, this.req)) return;
         const params = this.request.body;
         const { csrf, account, signatures } =
@@ -419,7 +420,7 @@ export default function useGeneralApi(app) {
         recordWebEvent(this, 'api/login_account', account);
     });
 
-    router.post('/logout_account', koaBody, function*() {
+    router.post('/logout_account', koa_body(), function*() {
         // if (rateLimitReq(this, this.req)) return; - logout maybe immediately followed with login_attempt event
         const params = this.request.body;
         const { csrf } =
@@ -440,7 +441,59 @@ export default function useGeneralApi(app) {
         }
     });
 
-    router.post('/record_event', koaBody, function*() {
+    router.post('/upload_image', koa_body({ multipart: true }), function*() {
+        try {
+            const req = this.request;
+            const body = req.body;
+            const files = body.files;
+            logRequest('upload_image', this, { files });
+            console.log('APPEND TO FORM');
+
+            const file = files['file'];
+            let formData = {
+                image: {
+                    value: fs.createReadStream(file['path']),
+                    options: {
+                        filename: file['name'],
+                        contentType: file['type'],
+                    },
+                },
+            };
+
+            console.log('BEFORE');
+            request(
+                {
+                    uri: 'https://imgsafe.org/upload-image',
+                    method: 'POST',
+                    form: formData,
+                },
+                function(error, response, body) {
+                    console.log('RESPONSE');
+                    console.log(body['error']);
+                    if (error) {
+                        this.body = JSON.stringify({ error: error });
+                        this.status = 500;
+                        console.log('upload failed:', error);
+                    } else if (body['error']) {
+                        this.body = JSON.stringify({ error: body['error'] });
+                        this.status = 500;
+                        console.log('upload failed:', body['error']);
+                    } else {
+                        console.log('SUCCESS');
+                        this.body = JSON.stringify({ status: 'ok' });
+                    }
+                }
+            );
+
+            console.log('AFTER');
+        } catch (error) {
+            console.error('Error in /upload_image api call', error.message);
+            this.body = JSON.stringify({ error: error.message });
+            this.status = 500;
+        }
+    });
+
+    router.post('/record_event', koa_body(), function*() {
         if (rateLimitReq(this, this.req)) return;
         try {
             const params = this.request.body;
@@ -500,7 +553,7 @@ export default function useGeneralApi(app) {
         this.body = '';
     });
 
-    router.post('/page_view', koaBody, function*() {
+    router.post('/page_view', koa_body(), function*() {
         const params = this.request.body;
         const { csrf, page, ref } =
             typeof params === 'string' ? JSON.parse(params) : params;
@@ -588,7 +641,7 @@ export default function useGeneralApi(app) {
         }
     });
 
-    router.post('/save_cords', koaBody, function*() {
+    router.post('/save_cords', koa_body(), function*() {
         const params = this.request.body;
         const { csrf, x, y } =
             typeof params === 'string' ? JSON.parse(params) : params;
@@ -618,7 +671,7 @@ export default function useGeneralApi(app) {
         this.body = JSON.stringify({ status: 'ok' });
     });
 
-    router.post('/setUserPreferences', koaBody, function*() {
+    router.post('/setUserPreferences', koa_body(), function*() {
         const params = this.request.body;
         const { csrf, payload } =
             typeof params === 'string' ? JSON.parse(params) : params;
