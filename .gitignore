@@ -10,4 +10,5 @@ vendor/*
 tmp/*
 .vagrant
 lib
+upload
 
