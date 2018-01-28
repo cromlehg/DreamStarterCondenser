@@ -19,6 +19,8 @@ import Tarantool from 'db/tarantool';
 import { PublicKey, Signature, hash } from '@steemit/steem-js/lib/auth/ecc';
 import { api, broadcast } from '@steemit/steem-js';
 import request from 'request';
+import path from 'path';
+import shortid from 'shortid';
 
 const mixpanel = config.get('mixpanel')
     ? Mixpanel.init(config.get('mixpanel'))
@@ -441,57 +443,36 @@ export default function useGeneralApi(app) {
         }
     });
 
-    router.post('/upload_image', koa_body({ multipart: true }), function*() {
-        try {
-            const req = this.request;
-            const body = req.body;
-            const files = body.files;
-            logRequest('upload_image', this, { files });
-            console.log('APPEND TO FORM');
-
-            const file = files['file'];
-            let formData = {
-                image: {
-                    value: fs.createReadStream(file['path']),
-                    options: {
-                        filename: file['name'],
-                        contentType: file['type'],
-                    },
+    router.post(
+        '/upload_image',
+        koa_body({
+            multipart: true,
+            formidable: {
+                uploadDir: path.resolve(__dirname, '../../../upload'),
+                keepExtensions: true,
+                onFileBegin: (_, file) => {
+                    const ext = file.name.split('.').pop();
+                    const name = `${shortid.generate()}.${ext}`;
+                    const folder = path.dirname(file.path);
+                    file.path = path.join(folder, name);
                 },
-            };
-
-            console.log('BEFORE');
-            request(
-                {
-                    uri: 'https://imgsafe.org/upload-image',
-                    method: 'POST',
-                    form: formData,
-                },
-                function(error, response, body) {
-                    console.log('RESPONSE');
-                    console.log(body['error']);
-                    if (error) {
-                        this.body = JSON.stringify({ error: error });
-                        this.status = 500;
-                        console.log('upload failed:', error);
-                    } else if (body['error']) {
-                        this.body = JSON.stringify({ error: body['error'] });
-                        this.status = 500;
-                        console.log('upload failed:', body['error']);
-                    } else {
-                        console.log('SUCCESS');
-                        this.body = JSON.stringify({ status: 'ok' });
-                    }
-                }
-            );
-
-            console.log('AFTER');
-        } catch (error) {
-            console.error('Error in /upload_image api call', error.message);
-            this.body = JSON.stringify({ error: error.message });
-            this.status = 500;
+            },
+        }),
+        function*() {
+            try {
+                const files = this.request.body.files;
+                logRequest('upload_image', this, { files });
+                this.body = JSON.stringify({
+                    url: `/upload/${path.basename(files.file.path)}`,
+                });
+                this.satus = 200;
+            } catch (error) {
+                console.error('Error in /upload_image api call', error.message);
+                this.body = JSON.stringify({ error: error.message });
+                this.status = 500;
+            }
         }
-    });
+    );
 
     router.post('/record_event', koa_body(), function*() {
         if (rateLimitReq(this, this.req)) return;

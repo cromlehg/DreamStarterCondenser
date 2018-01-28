@@ -112,17 +112,17 @@ export default ({
             if (noImage) return { tagName: 'div', text: noImageText };
             //See https://github.com/punkave/sanitize-html/issues/117
             let { src, alt } = attribs;
-            if (!/^(https?:)?\/\//i.test(src)) {
-                console.log(
-                    'Blocked, image tag src does not appear to be a url',
-                    tagName,
-                    attribs
-                );
-                sanitizeErrors.push(
-                    'An image in this post did not save properly.'
-                );
-                return { tagName: 'img', attribs: { src: 'brokenimg.jpg' } };
-            }
+            // if (!/^(https?:)?\/\//i.test(src)) {
+            //     console.log(
+            //         'Blocked, image tag src does not appear to be a url',
+            //         tagName,
+            //         attribs
+            //     );
+            //     sanitizeErrors.push(
+            //         'An image in this post did not save properly.'
+            //     );
+            //     return { tagName: 'img', attribs: { src: 'brokenimg.jpg' } };
+            // }
 
             // replace http:// with // to force https when needed
             src = src.replace(/^http:\/\//i, '//');

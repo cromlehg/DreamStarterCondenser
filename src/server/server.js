@@ -16,6 +16,7 @@ import useOauthLogin from './api/oauth';
 import useGeneralApi from './api/general';
 import useAccountRecoveryApi from './api/account_recovery';
 import useNotificationsApi from './api/notifications';
+import usePublicApi from './api/public';
 import useEnterAndConfirmEmailPages from './sign_up_pages/enter_confirm_email';
 import useUserJson from './json/user_json';
 import usePostJson from './json/post_json';
@@ -220,6 +221,7 @@ useAccountRecoveryApi(app);
 useOauthLogin(app);
 useGeneralApi(app);
 useNotificationsApi(app);
+usePublicApi(app);
 
 // helmet wants some things as bools and some as lists, makes config difficult.
 // our config uses strings, this splits them to lists on whitespace.
