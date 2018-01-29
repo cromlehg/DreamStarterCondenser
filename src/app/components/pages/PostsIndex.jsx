@@ -158,17 +158,11 @@ class PostsIndex extends React.Component {
             page_title = 'Мечты'; // todo: localization
         } else {
             switch (topics_order) {
-                case 'trending': // cribbed from Header.jsx where it's repeated 2x already :P
-                    page_title = tt('main_menu.trending');
+                case 'posts': // cribbed from Header.jsx where it's repeated 2x already :P
+                    page_title = tt('main_menu.posts');
                     break;
-                case 'created':
-                    page_title = tt('g.new');
-                    break;
-                case 'hot':
-                    page_title = tt('main_menu.hot');
-                    break;
-                case 'promoted':
-                    page_title = tt('g.promoted');
+                case 'dreams':
+                    page_title = tt('main_menu.dreams');
                     break;
             }
             if (typeof category !== 'undefined') {

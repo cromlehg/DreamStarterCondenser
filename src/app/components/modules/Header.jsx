@@ -191,10 +191,8 @@ class Header extends React.Component {
         ) : null;
 
         const sort_orders = [
-            ['trending', tt('main_menu.trending')],
-            ['created', tt('g.new')],
-            ['hot', tt('main_menu.hot')],
-            ['promoted', tt('g.promoted')],
+            ['posts', tt('main_menu.posts')],
+            ['dreams', tt('main_menu.dreams')],
         ];
         if (current_account_name)
             sort_orders.unshift(['home', tt('header_jsx.home')]);
@@ -209,11 +207,10 @@ class Header extends React.Component {
         );
 
         const sort_orders_horizontal = [
-            ['trending', tt('main_menu.trending')],
-            ['created', tt('g.new')],
-            ['hot', tt('main_menu.hot')],
-            ['promoted', tt('g.promoted')],
+            ['posts', tt('main_menu.posts')],
+            ['dreams', tt('main_menu.dreams')],
         ];
+
         // if (current_account_name) sort_orders_horizontal.unshift(['home', tt('header_jsx.home')]);
         const sort_order_menu_horizontal = sort_orders_horizontal.map(so => {
             let active = so[0] === sort_order;
